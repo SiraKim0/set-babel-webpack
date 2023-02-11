@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "jsx": "react-jsx",
+    "target": "es5",
     "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "jsx": "react-jsx",
     "skipLibCheck": true
   }
 }

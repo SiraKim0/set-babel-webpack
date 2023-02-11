@@ -25,7 +25,7 @@ module.exports = (env, argv) => {
       rules: [
         {
           test: /\.tsx?$/,
-          use: ["babel-loader", "ts-loader"],
+          use: ["babel-loader", "ts-loader"], //오른쪽에서 왼쪽 방향으로 적용. ts-loader를 babel-loader보다 오른쪽에 위치시켜야함.
         },
       ],
     },
